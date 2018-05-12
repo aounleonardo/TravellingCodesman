@@ -1,2 +1,2 @@
 # My Personal Website
-Visit it [here](travellingcodesman.com)
+Visit it [here](http://travellingcodesman.com)
