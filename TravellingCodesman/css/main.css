@@ -1,0 +1,147 @@
+/* CSS Document */
+
+.etiquette {
+	color: #03302f;
+	background-color: #e6682e;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	position: fixed;
+	overflow-y: scroll;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 2%;/*	margin-right: 2%;*/
+}
+.etiquette-scroll {
+	position: relative;
+	overflow-y: scroll;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+.etiquette h1 {
+	font-size: 200%;
+	font-weight: bold;
+	margin-left: 1%;
+}
+.etiquette p {
+	margin-left: 1%;
+}
+
+.my-fa{
+	color: #03302f;
+}
+
+.multi-cols{
+	column-count: 2;
+   	column-gap: 20px;
+   	column-fill: auto;
+}
+
+.signature {
+	margin-top: auto;
+	width: 100%;
+}
+.signature p {
+	text-align: center;
+	font-size: 50%;
+}
+
+.img-sidebar {
+}
+.text-align {
+	text-align: left;
+}
+
+@media (min-width: 992px) {
+.text-align {
+	text-align: center;
+}
+}
+.resume {
+	color: #03302f;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	margin-bottom: 10%;
+}
+.resume .carousel {
+	background-color: #e6682e;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.resume .carousel span {
+	color: #03302f;
+}
+.img-holder {
+/*	background-color: green;*/
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+.img-holder img {
+	max-width: 100%;
+	max-height: 100%;
+	align-self: center;
+}
+.carousel-size {
+	width: 100%;
+	height: 400px;
+}
+
+@media (max-width: 992px) {
+.resume .carousel span {
+/*		display: none;*/
+}
+.resume .carousel-indicators li {
+	transform: scale(0.3);
+}
+.resume .indicators {
+	/*
+		-webkit-transform: scale(0.3);
+		-moz-transform: scale(0.3);
+		-ms-transform: scale(0.3);
+	*/
+
+	transform: scale(0.3);
+}
+.carousel-size {
+	height: 100px;
+/*	width: 60%;*/
+}
+.img-holder {
+/*	background-color: blue;*/
+	height: 100px;
+}
+	
+.carousel-size h2{
+	margin-top: 5%;
+	font-size: 50%;
+}
+	
+.carousel-size p{
+	font-size: 20%;
+}
+
+.carousel-size li{
+	font-size: 20%;
+}
+	
+.carousel-indicators{
+	display: none;
+}
+	
+ul{
+	padding-left: 20%;
+}
+
+/*
+	
+	.etiquette{
+		display: none;
+	}
+*/
+}
+
+.two-cols{
+	columns: 2;
+	list-style-position: inside;
+}
