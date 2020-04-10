@@ -27,7 +27,7 @@ publishDir = "aounleonardo.github.io"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "aounleonardo96@gmail.com"
 
     # Custom assets
 	custom_css = []
@@ -52,9 +52,9 @@ publishDir = "aounleonardo.github.io"
         title = "Education"
 
         [params.education.modal]
-            client = "Client"
             date = "Date"
-            category = "Category"
+            location = "Location"
+            category = "Degree"
             buttontext = "Close"
 
 
@@ -66,9 +66,9 @@ publishDir = "aounleonardo.github.io"
         title = "Experience"
 
         [params.experience.modal]
-            client = "Client"
             date = "Date"
-            category = "Category"
+            location = "Location"
+            category = "Position"
             buttontext = "Close"
 
 
@@ -80,7 +80,6 @@ publishDir = "aounleonardo.github.io"
         title = "Projects"
 
         [params.portfolio.modal]
-            client = "Client"
             date = "Date"
             category = "Category"
             buttontext = "Close"
@@ -89,8 +88,8 @@ publishDir = "aounleonardo.github.io"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "I am a Lebanese graduate from EPFL, Switzerland who majored in CSE. Experienced in machine learning, full stack development, and travelling."
+        right = "I Lived in 8 regions across 3 continents in the last 3 years which taught me to be a sociable and open-minded person. Inspired by science and always eager to discover and invent."
 
         [params.about.button]
             text = "Download Resume"
@@ -98,37 +97,8 @@ publishDir = "aounleonardo.github.io"
             icon = "download"
 
 
-    [params.contact]
-        title = "Contact"
-
-        # 'error' defines error messages for invalid inputs
-        [params.contact.form.name]
-            text = "Name"
-            error = "Please enter your name."
-
-        [params.contact.form.email]
-            text = "Email Address"
-            error = "Please enter your email address."
-
-        [params.contact.form.phone]
-            text = "Phone Number"
-            error = "Please enter your phone number."
-
-        [params.contact.form.message]
-            text = "Message"
-            error = "Please enter a message."
-
-        [params.contact.form.button]
-            text = "Send"
-
-
     [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
-
-        [params.footer.location]
-            title = "Location"
-            # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+        copyright = "Borrowed under the Apache License 2.0 from [Start Bootstrap](//startbootstrap.com). Powered by [Hugo](//gohugo.io)."
 
         [params.footer.social]
             title = "Around the web"
@@ -154,7 +124,3 @@ publishDir = "aounleonardo.github.io"
             [[params.footer.social.networks]]
                 icon = "fa-envelope"
                 link=  "mailto:aounleonardo96@gmail.com"
-
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
