@@ -5,3 +5,7 @@ img: fb.png
 location: London, UK
 category: Backend Engineering Intern
 description: 
+    - Built static verficiation tools in Hacklang that ran on more than 10,000 database schemas to prevent data misuse in the codebase
+    - Set up a routine job on Hive and Dataswarm to analyze anomalies
+    - Found heuristics to recommend possible solutions to the unsafe schemas’ maintainers
+

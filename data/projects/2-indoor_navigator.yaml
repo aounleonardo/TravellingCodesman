@@ -4,3 +4,4 @@ date: 2018
 img: arkit.png
 category: Augmented Reality, iOS Swift
 description: 
+    - Implemented a plugin to the EPFLCampus ioS app to localize users inside campus buildings and navigate them to their desired destination in augmented reality

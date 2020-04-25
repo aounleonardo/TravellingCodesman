@@ -3,4 +3,6 @@ title: RASP
 date: 2019
 img: rasp.png
 category: Golang, React
-description: 
+description:
+    - Created an asynchronous yet fair [Rock Paper Scissors game](https://youtu.be/lsuVLHnIUhM)
+    - Coded the UI in React and the supporting blockchain in Golang

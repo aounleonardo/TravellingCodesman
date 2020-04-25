@@ -4,3 +4,7 @@ date: 2020
 img: spread_classification.png
 category: Pytorch, Geometric Deep Learning
 description: 
+    - Collaborated with a start-up focused on detecting Social Media Manipulation 
+    - Reviewed the literature on Geometric Deep Learning and Social Media Manipulation Detection
+    - Built a graph classifier using PyTorch, Ignite and DGL
+

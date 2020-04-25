@@ -3,4 +3,7 @@ title: Pitchgrader
 date: 2018
 img: pitchgrader.png
 category: OpenCV, MERN stack
-description:
+description: 
+    - Built an application to analyze Football and Tennis fields in Switzerland
+    - Used NodeJS and React for the [web app](https://youtu.be/QSX4Bnhs0CI)
+    - Preprocessed satellite images in OpenCV

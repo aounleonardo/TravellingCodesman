@@ -5,3 +5,9 @@ img: adobe.png
 location: San Jose, CA
 category: Research Intern
 description: 
+    - Contributed to possible improvement of Adobe Research's compute cluster by benchmarking the performance of machine learning jobs on internal GPUs and cloud computing alternatives
+    - Created a platform where scientists upload their Docker containers to have Apache Mesos & Marathon handle their neural network trainings
+    - Provided a cost- performance comparison of cloud solutions vs. local hosting
+    - Organized a social activities program for summer interns with a team of 5 employees
+
+

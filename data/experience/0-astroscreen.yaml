@@ -5,3 +5,6 @@ img: astroscreen.png
 location: Barcelona, CT
 category: Data Science Intern
 description: 
+    - Finalized my MSc Thesis titled 'Read Between the Tweets - A Context based Approach for Fake News Classification'
+    - Reviewed state-of-the-art approaches for Geometric Deep Learning
+    - Implemented Graph Neural Networks models on Twitter datasets
